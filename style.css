@@ -11,10 +11,10 @@ body {
     justify-content: center;
     background-color: rgb(69, 0, 76);
 }
-
+ 
 .heart {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: #ff7ba2;
     position: relative;
     transform: rotate(-45deg);
@@ -53,11 +53,11 @@ body {
 .heart::before {
     content: "";
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: #ff7ba2;
     top: -50%;
-    border-radius: 100px;
+    border-radius: 300px;
     box-shadow: -10px -10px 90px #ff7ba2;
 
 }
@@ -65,11 +65,11 @@ body {
 .heart::after { 
     content: "";
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: #ff7ba2;
     right: -50%;
-    border-radius: 100px;
+    border-radius: 300px;
     box-shadow: 10px 10px 90px #ff7ba2;
 
     }
